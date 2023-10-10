@@ -1,0 +1,217 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: #3C1518 ;
+}
+
+body {font-family: 'Lato', sans-serif;}
+
+
+/* HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    width: 120px;
+    height: 100px;
+    align-content: left;
+}
+
+
+ul { text-decoration: none;
+    list-style-type: none;
+    
+}
+ul li {
+    display: inline-block;
+    margin: 20px;
+    justify-content: space-between;}
+    
+a{ 
+    text-decoration: none;
+    color: #3C1518;}
+
+
+/*Main index*/
+ .titulo {
+       display: flex;
+        color: whitesmoke;
+        height: 60vh;
+        background-image: url(../multimedia/imagenes/fondosillones.jpg);
+        background-size: cover;
+        text-align: left;
+     }
+
+
+    
+  .tituloprin {
+    display: flex;
+    color: whitesmoke;
+    align-content: center;
+    }
+        
+ .subtitulo {
+        text-align:center;
+        padding: 20px;
+        font-size: xx-large;
+        text-decoration:underline ;
+    }
+p {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.titulo-principal{ 
+    text-align: center;
+    align-content: center;
+    background-image: url(../multimedia/imagenes/fondo\ 1.jpeg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    
+}
+ 
+
+/* Carousel */
+
+.fotocaro {
+    display: flex;
+    align-items: center;
+}
+.carousel  {
+    width: 500px;
+    height: 450px;
+    box-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.imgcarousel {
+    overflow: hidden;
+}
+
+
+.imagen{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    
+
+}
+
+.img {
+    width: 100%;
+    height: 220px;
+    margin: 10px;
+}
+
+
+/*Catalogo html*/
+
+/* Menu desplegable */
+.nav-link {
+    color: #3C1518;
+    margin: 20px;
+    justify-content: space-between;
+}
+.navbar-toggler-icon {
+    color: #3C1518;
+    
+}
+
+
+.catalogo {
+    display: flex;
+    align-items: center;
+}
+.card {
+    border: #f2dbb6 solid 10px;
+    margin: 10px;
+    
+}
+.card-img-top {
+    width: auto;
+    height: 30vh;
+}
+.card-body {
+    background-color: #f2dbb6;
+}
+
+/* Botones utilizados */
+.boton {
+    background-color: none;
+    border:  solid 2px;
+}
+.boton:hover {
+    background-color:#bb9457;
+    
+}
+
+
+
+
+/* Presupuesto */
+.sub-presupuesto {
+    text-align: center;
+}
+
+.mb-3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+
+.iframemap{
+    display: flex;
+    justify-content: right;
+    margin: 30px 25px;
+}
+
+.form-contacto{
+    display: flex;
+    flex-flow: column;
+    align-content:end;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+    background-color: #3C1518;
+    align-content: space-between;
+    margin: 100px 0px 0px 0px;
+    
+}
+
+.redes{ 
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.icono-redes{
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+   height: 30px;
+   margin: 25px;
+   
+}
