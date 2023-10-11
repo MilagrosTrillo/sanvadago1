@@ -37,20 +37,31 @@ a{
 
 /*Main index*/
  .titulo {
-       display: flex;
+       
         color: whitesmoke;
         height: 60vh;
         background-image: url(../multimedia/imagenes/fondosillones.jpg);
         background-size: cover;
         text-align: left;
+        justify-content: center;
+        
+
      }
 
 
     
-  .tituloprin {
+  .titulo-prin {
     display: flex;
+    text-align: left;
     color: whitesmoke;
     align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    .subtitulo-prin {
+        margin-top: 10px;
     }
         
  .subtitulo {
@@ -67,28 +78,17 @@ p {
 }
 
 
-.titulo-principal{ 
-    display: flex;
-    text-align: center;
-    background-image: url(../multimedia/imagenes/fondo\ 1.jpeg);
-    height: 30vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    color: whitesmoke;
-    font-weight: 600;
-    
-}
- 
-
 /* Carousel */
 
 .fotocaro {
     display: flex;
     align-items: center;
+}
+.carro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .carousel  {
     width: 500px;
@@ -119,11 +119,42 @@ p {
     margin: 10px;
 }
 
+.titulo-principal{ 
+    display: flex;
+    text-align: center;
+    background-image: url(../multimedia/imagenes/fondo\ 1.jpeg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    
+}
 /* Nosotros html */
 
 .text-nosotros {
+    
     margin: 10px;
+    height: 50vh;
+    align-self: center;
+    font-size: x-large;
+}
 
+.nosotros-cuerpo {
+    display: grid;
+    margin: auto;
+    padding: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.imagen-nosotros {
+    width: 100%;
 }
 
 
@@ -141,15 +172,28 @@ p {
     
 }
 
+.navvar {
+    background-color: none;
+}
+
 
 
 
 
 .catalogo {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin: auto;
+    
+}
+
+.padrecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -204,14 +248,20 @@ p {
 /* Presupuesto */
 .sub-presupuesto {
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .mb-3 {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 300px;
-    margin-right: 300px
+    margin-left: 10px;
+    margin-right: 10px
 }
+ .form-presupuesto {
+    border-radius: 25px ;
+    border: #3C1518 solid 5px ;
+ }
 
 
 
@@ -220,8 +270,8 @@ p {
 .iframemap{
     display: flex;
     justify-content: right;
-    margin: 30px 25px;
-    margin-right: 10vw;
+    width: 100%;
+    margin: 10px 0 30px;
 }
 
 .texto-form-cont {
@@ -243,38 +293,7 @@ footer{
     
 }
 
-/* .redes{ 
-     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    align-content: center; */
 
-}
-/* .iconoredes{
-   display: flex;
-   flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-   height: 30px;
-   margin: 25px;
-   
-} */
-
-/* .iconoredes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-   height: 30px;
-   margin: 25px;
-   justify-content: space-between;
-   justify-items: center;
-   display: inline-block row;
-    */
-}
 
 .redes {
     display: flex;
