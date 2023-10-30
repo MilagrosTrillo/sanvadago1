@@ -1,0 +1,22 @@
+ @mixin fondo-boton ($background-color) {
+    .hover {
+        background-color: $background-color;
+    } 
+ }
+
+
+.boton {
+    background-color: none;
+    border:  solid 2px;
+    &:hover {
+            background-color:#786F52;
+            border: solid 3px;
+            transition: 0,2s;
+        }
+        
+}
+
+
+.boton-card {
+    @include fondo-boton(#1C6E8C)
+}

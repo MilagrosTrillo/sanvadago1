@@ -1,0 +1,76 @@
+// titulo index//
+
+.titulo {
+       
+    color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../multimedia/imagenes/fondosillones.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+        
+    
+ }
+
+
+
+
+.titulo h1 {
+    font-size: 80px;
+    line-height: 80px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.titulo h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+//Animaciones//
+.animate__animated.animate__zoomIn .animate__fadeIn{
+    animation-duration: 7s;
+}
+//subtitulos en index//
+.subtitulo {
+    text-align:center;
+    padding: 20px;
+    font-size: xx-large;
+    text-decoration:underline ;
+}
+p {
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+//carousel//
+.fotocaro {
+    display: flex;
+    align-items: center;
+}
+.carro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.carousel  {
+    width: 500px;
+    height: 450px;
+    box-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.imgcarousel {
+    overflow: hidden;
+}
