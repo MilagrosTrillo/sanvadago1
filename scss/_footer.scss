@@ -1,13 +1,22 @@
 //FOOTER//
 footer{
     background-color: $color-principal;
-    align-content: center;
     margin: 80px 0px 0px 0px;
-    height: 25vh;
-    justify-content: space-between;
+    height: 30vh;
+    text-decoration:none;
+    color: whitesmoke !important; 
 
     
+    
+    
 }
+
+
+
+
+
+
+
 .redes {
     display: flex;
     flex-direction: row;
@@ -23,9 +32,26 @@ footer{
 .icono {
     padding: 10px;
 }
+
 .icono :hover{
     
         transform: scale(1.5);
         overflow: none;
 
   }
+
+.medio-de-pago {
+    margin-bottom: 3px;
+    text-align: center;
+    
+}
+
+.grupo-1 {
+    color: #E49AB0;
+}
+.grupo-2 {
+    width: 100%;
+    background-color: #E49AB0;
+}
+
+
