@@ -2,7 +2,7 @@
 footer{
     background-color: $color-principal;
     margin: 80px 0px 0px 0px;
-    height: 30vh;
+    // height: 30vh;
     text-decoration:none;
     color: whitesmoke !important; 
 }
@@ -13,7 +13,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    height: 15vh;
+    height: 20px;
     list-style: none; 
     transition: all 300ms;
     
@@ -36,12 +36,50 @@ footer{
     
 }
 
-// .grupo-1 {
-//     color: #E49AB0;
-// }
+
 .grupo-2 {
     width: 100%;
     background-color: #E49AB0;
 }
 
+.footer-col * {
+    color:#E49AB0;
+}
 
+.footer-col {
+    padding: 10px;
+}
+
+.texto-footer {
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.formulario-footer {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #E49AB0;
+    color: $color-principal;
+}
+
+.formulario-footer:focus {
+    color: white;
+}
+
+.foo{
+    display: flex;
+}
+
+.btn-email {
+    box-sizing: border-box;
+    border: 2px solid #E49AB0;
+}
+
+.btn-email:hover {
+    color: white;
+    background-color: #E49AB0;
+}
