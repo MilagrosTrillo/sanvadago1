@@ -7,6 +7,9 @@
 
 body {font-family: 'Lato', sans-serif;}
 
+.footer {
+    color:  #E49AB0;
+}
 
 //titulos de todos los html excepto index//
 .titulo-principal{ 
@@ -18,7 +21,8 @@ body {font-family: 'Lato', sans-serif;}
     background-size: cover;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: whitesmoke;
     .h1 { font-weight: bold;}
 } 
