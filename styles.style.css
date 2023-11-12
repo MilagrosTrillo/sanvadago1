@@ -9,10 +9,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.footer {
-  color: #E49AB0;
-}
-
 .titulo-principal {
   display: flex;
   text-align: center;
@@ -27,6 +23,21 @@ body {
   color: whitesmoke;
 }
 .titulo-principal .h1 {
+  font-weight: bold;
+}
+
+.titulo-error {
+  display: flex;
+  text-align: center;
+  color: #3C1518;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  text-decoration: none;
+  color: #E49AB0;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -317,11 +328,6 @@ footer {
   text-align: center;
 }
 
-.grupo-2 {
-  width: 100%;
-  background-color: #E49AB0;
-}
-
 .footer-col * {
   color: #E49AB0;
 }
@@ -364,11 +370,4 @@ footer {
   background-color: #E49AB0;
 }
 
-.texto-error {
-  display: flex;
-  align-items: center;
-  color: #3C1518;
-}
-
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.style.css.map */
